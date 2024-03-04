@@ -184,6 +184,7 @@ def user_data(user_id: str = Query(...,
     
     return JSONResponse(content=result)
 
+
 @app.get(path="/userForGenre",
          description= ''' <font color= '#1E1E24'>
                             Esta función, al ingresar el nombre de un género de juegos devuelve, para ese género, el id del usuario con mayor cantidad de horas de juego acumuladas para ese género<br> 
@@ -195,7 +196,8 @@ def user_data(user_id: str = Query(...,
        'audio production', 'casual', 'design illustration', 'early access',
        'education', 'free to play', 'indie', 'massively multiplayer',
        'photo editing', 'racing', 'rpg', 'simulation', 'software training',
-       'sports', 'strategy', 'utilities', 'video production', 'web publishing'                     
+       'sports', 'strategy', 'utilities', 'video production', 'web publishing' <br>
+       Type genre name in lower case<br>                    
                             ''',
                             tags=['Consulta Generales'])   
 ## 3.2.3 **User_for_genres**: this function must return the user with more minutes accumulated for the given genres
