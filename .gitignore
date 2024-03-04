@@ -1,0 +1,38 @@
+venv/
+__pychache__/
+
+*.venv
+*.venv.*
+venv.
+
+# Editor/IDE files
+.vscode/
+.idea/
+
+# Version control system
+.git/
+
+# Temporary files
+*.log
+*.tmp
+
+# Dependency management
+pipenv/
+poetry/
+Pipfile.lock
+
+03. Feature Engineering.ipynb
+04. Recommendation_Model.ipynb
+Desarrollo.ipynb
+EDA_games.ipynb
+EDA_items.ipynb
+EDA_reviews.ipynb
+ETL_games.ipynb
+ETL_items.ipynb
+ETL_user_reviews
+html.txt
+landing page.html
+mypage.html
+items.parquet
+games2.parquet
+instructions for deploy.txt
