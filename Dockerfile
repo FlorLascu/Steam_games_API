@@ -1,4 +1,4 @@
-FROM python:3.10-slim
+FROM python:3.11.8
 
 # Set the working directory in the container
 WORKDIR /app
@@ -7,7 +7,7 @@ WORKDIR /app
 COPY requirements.txt .
 
 # Install Python dependencies
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy the entire project directory into the docker container 
 COPY . .
