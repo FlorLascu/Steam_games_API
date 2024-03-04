@@ -240,7 +240,7 @@ def userForGenre(genre: str = Query(...,
                             1. Click on "Try it out" to input a valid year <br>
                             2. Scroll down to 'Responses' to view the df result<br>
                             3. Years range from : <br>
-                            List [2010,2011,2012,2014,2015,2024]                     
+                            List [2010,2011,2012,2013,2014,2015,2024]                     
                             ''',
                             tags=['Consulta Generales'])  
 def top_developers(year: int = Query(...,
